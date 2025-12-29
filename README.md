@@ -1,6 +1,13 @@
 # EduPlannerHub - منصة EduPlannerHub التعليمية
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![React](https://img.shields.io/badge/React-18.2.0-blue.svg)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0.8-646CFF.svg)](https://vitejs.dev/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.3.6-38B2AC.svg)](https://tailwindcss.com/)
+
 منصة تعليمية شاملة تربط الطلاب والمعلمين في مكان واحد، مصممة بالكامل باللغة العربية مع دعم كامل للتخطيط من اليمين لليسار (RTL).
+
+🌐 **Live Demo:** [رابط المشروع](https://github.com/mvnnii1-byte/EduPlannerHub)
 
 ## المميزات الرئيسية
 
@@ -57,7 +64,7 @@ npm run build
 npm run preview
 ```
 
-بعد تشغيل `npm run dev`، سيفتح المتصفح تلقائياً على `http://localhost:3000`
+بعد تشغيل `npm run dev`، سيفتح المتصفح تلقائياً على `http://localhost:5173` (Vite's default port)
 
 ## هيكل المشروع
 
@@ -149,9 +156,19 @@ eduplannerhub/
 - إصلاح الأخطاء
 - تحسين الأداء
 
+راجع [دليل المساهمة](CONTRIBUTING.md) للتفاصيل.
+
 ## الترخيص
 
-هذا المشروع مفتوح المصدر ومتاح للاستخدام التعليمي.
+هذا المشروع مرخص تحت [MIT License](LICENSE) - راجع ملف LICENSE للتفاصيل.
+
+## المساهمون
+
+- [mvnnii1-byte](https://github.com/mvnnii1-byte) - المطور الرئيسي
+
+## الترخيص
+
+هذا المشروع مفتوح المصدر ومتاح للاستخدام التعليمي والتجاري.
 
 ## الدعم
 

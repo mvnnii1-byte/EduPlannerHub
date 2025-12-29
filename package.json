@@ -2,7 +2,24 @@
   "name": "eduplannerhub",
   "version": "1.0.0",
   "type": "module",
-  "description": "منصة تعليمية شاملة تربط الطلاب والمعلمين",
+  "description": "منصة تعليمية شاملة تربط الطلاب والمعلمين في مكان واحد",
+  "author": "mvnnii1-byte",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvnnii1-byte/EduPlannerHub.git"
+  },
+  "keywords": [
+    "education",
+    "learning",
+    "students",
+    "teachers",
+    "arabic",
+    "rtl",
+    "react",
+    "vite",
+    "tailwindcss"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
