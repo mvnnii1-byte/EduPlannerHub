@@ -1,4 +1,4 @@
-﻿import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { ResourcesProvider } from './contexts/ResourcesContext'
 import Navigation from './components/Navigation'
 import StudentPage from './pages/StudentPage'
@@ -9,7 +9,7 @@ import HomePage from './pages/HomePage'
 function App() {
   return (
     <ResourcesProvider>
-      <Router>
+      <Router basename={import.meta.env.BASE_URL}>
         <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-purple-50">
           <Navigation />
           <Routes>
